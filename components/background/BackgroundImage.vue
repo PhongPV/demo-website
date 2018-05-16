@@ -5,7 +5,7 @@
       <p class="description">The most advanced responsive front-end
           framework in the world.</p>
       <div class="button">
-        <p>Download toolkit</p>
+        <a href="#">Buying toolkit</a>
       </div>
       <div class="desc-github">
         <img
@@ -53,7 +53,7 @@
   width: 400px;
 }
 .bg-container .describe .button {
-  background-color: blue;
+  background-color: #0080ff;
   width: 200px;
   height: 50px;
   display: flex;
@@ -61,10 +61,11 @@
   justify-content: center;
   margin-bottom: 20px;
 }
-.bg-container .describe .button p {
+.bg-container .describe .button a {
   color: #fff;
   font-size: 17px;
   font-weight: bold;
+  text-decoration: none;
 }
 .bg-container .describe .desc-author {
   display: flex;

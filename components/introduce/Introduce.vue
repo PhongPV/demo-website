@@ -13,18 +13,18 @@
 
 <style>
 .intro-container {
+  width: 70%;
+  margin-left: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .intro-container .title {
   color: #535353;
-  margin: 15px 0;
+  margin-top: 30px;
 }
 .intro-container p {
-  font-size: 15px;
-  width: 800px;
-  margin-bottom: 15px;
+  margin: 30px 0;
   color: #535353;
 }
 </style>
