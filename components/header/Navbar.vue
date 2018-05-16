@@ -1,7 +1,7 @@
 <template>
   <div class="header-container">
     <img
-      src="../../assets/images/Logo.png"
+      src="/images/Logo.png"
       alt="Logo-Company"
       class="image"/>
     <div class="menu-container">
@@ -22,7 +22,6 @@
   background-color: #2b3741;
   height: 50px;
   display: flex;
-  position: fixed;
   align-items: center;
   justify-content: space-between;
   width: 100%;

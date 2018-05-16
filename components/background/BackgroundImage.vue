@@ -23,7 +23,7 @@
       </div>
     </div>
     <img
-      src="../../assets/images/background.png"
+      src="/images/background.png"
       alt=""
       class="bg-image"/>
   </div>
