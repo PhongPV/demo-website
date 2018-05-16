@@ -6,7 +6,7 @@
     <h3>{{title}}</h3>
     <p>{{description}}</p>
     <div class="button-buying">
-      <a href="#">Buying</a>
+      <a href="#">Add to cart</a>
     </div>
   </div>
 </template>
@@ -55,6 +55,10 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
+}
+.item-info .button-buying:hover {
+  background-color: #0063af;
 }
 .item-info .button-buying a {
   text-decoration: none;

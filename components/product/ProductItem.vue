@@ -4,7 +4,7 @@
       :src="image"
       alt="img-business"
       class="image"/>
-    <h2 class="title">{{title}}</h2>
+    <h2 class="title"><a href="#">{{title}}</a></h2>
     <p>{{description}}</p>
   </div>
 </template>
@@ -33,11 +33,14 @@ export default {
   align-items: center;
 }
 .product-item .image {
-  width: 50%;
+  width: 40%;
   height: 150px;
 }
 .product-item .title {
   margin-top: 20px;
+}
+.product-item .title a {
+  text-decoration: none;
   color: #535353;
 }
 .product-item p {

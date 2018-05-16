@@ -38,13 +38,13 @@ export default {
 }
 .info-container h2 {
   color: #535353;
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .info-container .item-container {
   display: flex;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 </style>

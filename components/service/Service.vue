@@ -41,6 +41,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid #bfbdbd;
 }
 .service-container h2 {
   color: #535353;
@@ -53,6 +54,9 @@ export default {
 .service-container .item-container {
   width: 100%;
   display: flex;
+}
+.service-container h4 {
+  margin-bottom: 50px;
 }
 .service-container h4 a {
   text-decoration: none;

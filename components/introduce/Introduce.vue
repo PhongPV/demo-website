@@ -18,6 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid #bfbdbd;
 }
 .intro-container .title {
   color: #535353;
@@ -26,5 +27,7 @@
 .intro-container p {
   margin: 30px 0;
   color: #535353;
+  line-height: 1.6;
+  font-size: 18px;
 }
 </style>

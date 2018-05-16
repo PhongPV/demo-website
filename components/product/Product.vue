@@ -33,5 +33,6 @@ export default {
   margin-left: 15%;
   display: flex;
   margin-top: 50px;
+  border-bottom: 1px solid #bfbdbd;
 }
 </style>

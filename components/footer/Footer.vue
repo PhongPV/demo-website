@@ -1,39 +1,93 @@
 <template>
   <div class="footer-container">
-    <p>© 1998–2018 DRA.io</p>
-    <div class="footer-name">
-      <ul>
-        <li><a href="#">Showcase</a></li>
-        <li><a href="#">Develope</a></li>
-        <li><a href="#">Tutorial</a></li>
-        <li><a href="#">Get Involved</a></li>
-        <li><a href="#">Docs</a></li>
-      </ul>
+    <div class="footer-desc">
+      <img
+        src="/images/logo.png"
+        alt=""
+        class="icon-image"/>
+      <p>© 1998–2018 DRA.io</p>
     </div>
+    <div class="info-footer">
+      <div class="footer-name">
+        <p>Community</p>
+        <ul>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">Youtube</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="footer-name">
+        <p>Service</p>
+        <ul>
+          <li><a href="#">Buying</a></li>
+          <li><a href="#">Sale</a></li>
+          <li><a href="#">Demo</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Upgrade</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+      </div>
+      <div class="footer-name">
+        <p>About Us</p>
+        <ul>
+          <li><a href="#">Our Company</a></li>
+          <li><a href="#">Member</a></li>
+          <li><a href="#">Event</a></li>
+        </ul>
+      </div>
+    </div>
+    <img
+      src="/images/info_img.png"
+      alt=""
+      class="image"/>
   </div>
 </template>
 
 <style>
 .footer-container {
   background-color: #2b3741;
-  height: 100px;
+  height: 300px;
   display: flex;
   align-items: center;
-  width: 100%;
   justify-content: space-between;
+  width: 100%;
 }
-.footer-container p {
-  color: #fff;
+.footer-container .image {
+  width: 25%;
+  padding-right: 15px;
+}
+.footer-container .footer-desc {
+  padding-left: 30px;
+}
+.footer-container .footer-desc p {
+  color: #fefefe;
   padding-left: 20px;
 }
-.footer-container .footer-name ul {
+.footer-container .info-footer .footer-name ul {
   list-style-type: none;
+  padding: 0;
+}
+.footer-container .info-footer .footer-name ul li a {
+  color: #dcddde;
+  font-size: 15px;
+  text-decoration: none;
+  padding-top: 20px;
+}
+.footer-container .info-footer .footer-name ul li a:hover {
+  color: #fff;
+}
+.footer-container .info-footer .footer-name p {
+  font-size: 20px;
+  color: #fefefe;
+}
+.footer-container .info-footer {
   display: flex;
 }
-.footer-container .footer-name ul li a {
-  color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: none;
+.footer-container .info-footer .footer-name {
+  margin: 0 25px;
+}
+.footer-container .info-footer .footer-name ul li {
+  padding-top: 15px;
 }
 </style>

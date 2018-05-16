@@ -3,7 +3,7 @@
     <img
       :src="image"
       alt="img-service"/>
-    <h3>{{title}}</h3>
+    <h3><a href="#">{{title}}</a></h3>
     <p>{{description}}</p>
   </div>
 </template>
@@ -37,6 +37,9 @@ export default {
 }
 .service-item h3 {
   padding: 15px 0;
+}
+.service-item h3 a {
+  text-decoration: none;
   color: #535353;
 }
 .service-item p {

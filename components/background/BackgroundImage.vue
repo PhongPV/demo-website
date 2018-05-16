@@ -41,15 +41,16 @@
   padding-left: 50px;
 }
 .bg-container .describe .title {
-  color: #fff;
+  color: #fefefe;
   font-size: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-weight: 200;
 }
 .bg-container .describe .description {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 100;
-  margin-bottom: 15px;
+  color: #fefefe;
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 25px;
   width: 400px;
 }
 .bg-container .describe .button {
@@ -59,13 +60,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
 }
 .bg-container .describe .button a {
   color: #fff;
   font-size: 17px;
   font-weight: bold;
   text-decoration: none;
+}
+.bg-container .describe .button:hover {
+  background-color: #0063af;
 }
 .bg-container .describe .desc-author {
   display: flex;
@@ -77,9 +82,9 @@
   align-items: center;
 }
 .bg-container .describe .text-desc {
-  color: #fff;
+  color: #fefefe;
   margin-left: 5px;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 100;
 }
 .bg-container .describe .icon {
