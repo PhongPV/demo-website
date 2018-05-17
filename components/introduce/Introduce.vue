@@ -1,6 +1,6 @@
 <template>
   <div class="intro-container">
-    <h2 class="title">Responsive design gets a whole lot faster</h2>
+    <h2 class="title">DigitalToken design gets a whole lot faster</h2>
     <p>A Framework for any device, medium, and accessibility.
       Foundation is a family of responsive front-end frameworks
       that make it easy to design beautiful responsive websites,
