@@ -2,7 +2,7 @@
   <div class="footer-container">
     <div class="footer-desc">
       <img
-        src="/images/logo.png"
+        src="/images/Logo.png"
         alt=""
         class="icon-image"/>
       <p>© 1998–2018 DRA.io</p>
